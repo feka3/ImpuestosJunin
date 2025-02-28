@@ -8,12 +8,18 @@ import shutil
 import pandas as pd
 from datetime import datetime, timedelta
 from email.header import decode_header
+from dotenv import load_dotenv
+import os
+
+# Cargar el archivo .env
+load_dotenv()
 
 app = Flask(__name__)
 
 # Configuración de Gmail
-EMAIL_ACCOUNT = "pelagaggepropiedades@gmail.com"
-EMAIL_PASSWORD = "uour hcii ozuq yfkl"
+# Acceder a las variables de entorno
+EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 IMAP_SERVER = "imap.gmail.com"
 FOLDER = "INBOX"
 SENDER_FILTER = "noreply@junin.gob.ar"
