@@ -88,7 +88,7 @@ def connect_gmail():
 
 def get_date_5_days_ago():
     today = datetime.today()
-    five_days_ago = today - timedelta(days=5)
+    five_days_ago = today - timedelta(days=20)
     return five_days_ago.strftime("%d-%b-%Y")
 
 from email.header import decode_header
