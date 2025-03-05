@@ -28,58 +28,55 @@ DOWNLOAD_FOLDER = "boletas_pdf"
 # Lista de propietarios (el mismo que tienes)
 
 PROPIETARIOS = {
-    "11144": ["Abdala - Venerte", "Cte. Escribano 321"],
-    "16360": ["Arriola", "Cnel. Suarez 352"],
-    "24651": ["Arriola", "Los Perales 350"],
-    "54937": ["Arriola", "Chacabuco 277"],
-    "19576": ["Carballeira Olga", "Almafuerte 352"],
-    "58357": ["Carballeira Olga", "Javier Muñiz 229"],
-    "58109": ["Covalchi", "Saavedra 16"],
-    "58110": ["Covalchi", "Saavedra 16 P1D"],
-    "57171": ["Dalesandro", "R.E. San Martin 61"],
-    "8587": ["Esquinoval Fabian", "Alte. Brown 423"],
-    "3219": ["Gralato Dorys", "M. Lopez 380"],
-    "9594": ["Marcantonio", "Padre Ghio 662"],
-    "46837": ["Marturano", "-"],
-    "13979": ["Mastrogiusepe", "Narbondo 241"],
-    "5065": ["Mucciarone Dalia", "Winter 26"],
-    "55119": ["Perez Olga", "Avda. San Martin 14"],
-    "46472": ["Pierrard", "R.E. San Martin 28"],
-    "46539": ["Pierrard", "R.E. San Martin 36"],
-    "47855": ["Pierrard", "Avda. San Martin 239"],
-    "53264": ["Pierrard", "Avda. San Martin 290"],
-    "53297": ["Pierrard", "Avda. San Martin 290"],
-    "55366": ["Pierrard", "Lebensohn 19"],
-    "55385": ["Pierrard", "Lebensohn 19 (Cochera)"],
-    "56149": ["Pierrard", "Gral. Paz 314"],
-    "702349": ["Poggio", "Roque Vazquez 786 PB D"],
-    "64188": ["Santangello Isabel", "Alberdi 70"],
-    "25053": ["Santos Norma", "25 de mayo 8"],
-    "59534": ["Sanz Elida", "Ameghino 177"],
-    "4812": ["Tobal Federico", "Winter 273"],
-    "20694": ["Varela", "Pasteur 470"],
-    "58089": ["Abrahan Domingo", ""],
-    "18475": ["Amigo Alberto", ""],
-    "17255": ["Bianchelli Alfredo", ""],
-    "702142": ["Bianchelli Alfredo", ""],
-    "18475": ["Boselli Luis", ""],
-    "33317": ["Dammiano Lucia", "Uruguay"],
-    "51596": ["De Benedetto Jose Luis", "R. Hernandez 1032"],
-    "7970": ["Di Prinzio Alcides", "Alem 262"],
-    "15036": ["Espindola Daniel", "Arias 440"],
-    "40022": ["Gas Carlos", "Saenz Peña 273"],
-    "40027": ["Gas Carlos", "Saenz Peña 273"],
-    "25962": ["Lima Alfredo", "Pellegrini 1080"],
-    "28625": ["Limonta Nestor", "Gandini 914"],
-    "62138": ["Mariani Nancy", "Saenz Peña 293"],
-    "61205": ["Mastromauro Nestor", "Saenz Peña 249"],
-    "51970": ["Woinilowiez", ""]
+    "11144": ["Abdala - Venerte", "Cte. Escribano 321", "Nosotros"],
+    "16360": ["Arriola", "Cnel. Suarez 352", "Nosotros"],
+    "24651": ["Arriola", "Los Perales 350", "Nosotros"],
+    "54937": ["Arriola", "Chacabuco 277", "Nosotros"],
+    "19576": ["Carballeira Olga", "Almafuerte 352", "Nosotros"],
+    "58357": ["Carballeira Olga", "Javier Muñiz 229", "Nosotros"],
+    "58109": ["Covalchi", "Saavedra 16", "Nosotros"],
+    "58110": ["Covalchi", "Saavedra 16 P1D", "Nosotros"],
+    "57171": ["Dalesandro", "R.E. San Martin 61", "Nosotros"],
+    "8587": ["Esquinoval Fabian", "Alte. Brown 423", "Nosotros"],
+    "3219": ["Gralato Dorys", "M. Lopez 380", "Nosotros"],
+    "9594": ["Marcantonio", "Padre Ghio 662", "Nosotros"],
+    "46837": ["Marturano", "-", "Nosotros"],
+    "13979": ["Mastrogiusepe", "Narbondo 241", "Nosotros"],
+    "5065": ["Mucciarone Dalia", "Winter 26", "Nosotros"],
+    "55119": ["Perez Olga", "Avda. San Martin 14", "Nosotros"],
+    "46472": ["Pierrard", "R.E. San Martin 28", "Nosotros"],
+    "46539": ["Pierrard", "R.E. San Martin 36", "Nosotros"],
+    "47855": ["Pierrard", "Avda. San Martin 239", "Nosotros"],
+    "53264": ["Pierrard", "Avda. San Martin 290", "Nosotros"],
+    "53297": ["Pierrard", "Avda. San Martin 290", "Nosotros"],
+    "55366": ["Pierrard", "Lebensohn 19", "Nosotros"],
+    "55385": ["Pierrard", "Lebensohn 19 (Cochera)", "Nosotros"],
+    "56149": ["Pierrard", "Gral. Paz 314", "Nosotros"],
+    "702349": ["Poggio", "Roque Vazquez 786 PB D", "Nosotros"],
+    "64188": ["Santangello Isabel", "Alberdi 70", "Nosotros"],
+    "25053": ["Santos Norma", "25 de mayo 8", "Nosotros"],
+    "59534": ["Sanz Elida", "Ameghino 177", "Nosotros"],
+    "4812": ["Tobal Federico", "Winter 273", "Nosotros"],
+    "20694": ["Varela", "Pasteur 470", "Nosotros"],
+    "58089": ["Abrahan Domingo", "", "Propietario"],
+    "18475": ["Amigo Alberto", "", "Propietario"],
+    "17255": ["Bianchelli Alfredo", "", "Propietario"],
+    "702142": ["Bianchelli Alfredo", "", "Propietario"],
+    "18475": ["Boselli Luis", "", "Propietario"],
+    "33317": ["Dammiano Lucia", "Uruguay", "Propietario"],
+    "51596": ["De Benedetto Jose Luis", "R. Hernandez 1032", "Propietario"],
+    "7970": ["Di Prinzio Alcides", "Alem 262", "Propietario"],
+    "15036": ["Espindola Daniel", "Arias 440", "Propietario"],
+    "40022": ["Gas Carlos", "Saenz Peña 273", "Propietario"],
+    "40027": ["Gas Carlos", "Saenz Peña 273", "Propietario"],
+    "25962": ["Lima Alfredo", "Pellegrini 1080", "Propietario"],
+    "28625": ["Limonta Nestor", "Gandini 914", "Propietario"],
+    "62138": ["Mariani Nancy", "Saenz Peña 293", "Propietario"],
+    "61205": ["Mastromauro Nestor", "Saenz Peña 249", "Propietario"],
+    "51970": ["Woinilowiez", "", "Propietario"]
 }
 
 # Funciones para manejar la conexión y el procesamiento
-
-
-
 def connect_gmail():
     mail = imaplib.IMAP4_SSL(IMAP_SERVER)
     mail.login(EMAIL_ACCOUNT, EMAIL_PASSWORD)
@@ -163,14 +160,16 @@ def extract_data_from_pdf(pdf_path):
     importe_match = re.search(r"(\d{2}/\d{2}/\d{4})\s+(\d{1,3}(?:\.\d{3})*,\d{2})", text)
     importe = importe_match.group(2) if importe_match else "N/A"
 
-    propietario, direccion = PROPIETARIOS.get(numero_partida, ["Desconocido", "-"])
+    propietario, direccion, quien_paga = PROPIETARIOS.get(numero_partida, ["Desconocido", "-", "Desconocido"])
 
     return {
         "Propietario": propietario,
         "Dirección": direccion,
         "Partida": numero_partida,
         "Fecha de Vencimiento": fecha_vencimiento,
-        "Importe": importe
+        "Importe": importe,
+        "Quién Paga": quien_paga
+
     }
 
 def process_pdfs():
