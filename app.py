@@ -73,7 +73,8 @@ PROPIETARIOS = {
     "28625": ["Limonta Nestor", "Gandini 914", "Propietario"],
     "62138": ["Mariani Nancy", "Saenz Peña 293", "Propietario"],
     "61205": ["Mastromauro Nestor", "Saenz Peña 249", "Propietario"],
-    "51970": ["Woinilowiez", "", "Propietario"]
+    "51970": ["Woinilowiez", "", "Propietario"],
+    "23190": ["Falasconi Carlos", "Mariano Moreno 428", "Nosotros"]
 }
 
 # Funciones para manejar la conexión y el procesamiento
