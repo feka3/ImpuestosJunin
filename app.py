@@ -77,6 +77,7 @@ PROPIETARIOS = {
     "23190": ["Falasconi Carlos", "Mariano Moreno 428", "Nosotros"],
     "13671": ["Meoni", "Vicente López y Planes 349", "Nosotros"],
     "30507": ["Artori Ricardo", "Rioja 93", "Nosotros"],
+    "18727": ["Guzman Marita", "25 de mayo 204", "Nosotros"]
 }
 
 # Funciones para manejar la conexión y el procesamiento
