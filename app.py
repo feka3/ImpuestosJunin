@@ -40,7 +40,7 @@ PROPIETARIOS = {
     "8587": ["Esquinoval Fabian", "Alte. Brown 423", "Nosotros"],
     "3219": ["Gralato Dorys", "M. Lopez 380", "Nosotros"],
     "9594": ["Marcantonio", "Padre Ghio 662", "Nosotros"],
-    "46837": ["Marturano", "-", "Nosotros"],
+    "26494": ["Marturano - quinta", "-", "Nosotros"],
     "13979": ["Mastrogiusepe", "Narbondo 241", "Nosotros"],
     "5065": ["Mucciarone Dalia", "Winter 26", "Nosotros"],
     "55119": ["Perez Olga", "Avda. San Martin 14", "Nosotros"],
